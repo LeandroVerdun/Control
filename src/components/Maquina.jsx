@@ -84,7 +84,7 @@ const Maquina = () => {
         </tbody>
       </table>
 
-      {/* Input para mostrar el resultado final */}
+      {}
       <div className="mt-3">
         <label className="fw-bold">Total:</label>
         <input type="number" className="form-control text-center" value={totalCalculado} readOnly />

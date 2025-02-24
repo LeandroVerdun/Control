@@ -1,5 +1,5 @@
 import react from "react";
-import Maquina from "./maquina";
+import Maquina from "./Maquina";
 
 const Grid = () => {
     return (
@@ -19,6 +19,10 @@ const Grid = () => {
             </div>
             <div className="col">
                 <h2>Maquina 4</h2>
+                <Maquina />
+            </div>
+            <div className="col">
+                <h2>Maquina 5</h2>
                 <Maquina />
             </div>
         </div>
